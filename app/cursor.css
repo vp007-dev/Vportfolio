@@ -17,8 +17,19 @@ body {
     z-index: -1;
     /* Place it behind other elements */
 }
-
 .cursor {
+    position: absolute;
+    width: 1000px; /* Adjust the width as needed */
+    height: 1000px; /* Adjust the height as needed */
+    background: radial-gradient(circle, rgb(10, 151, 176, 0.05) 0%, rgba(106, 129, 182, 0.001) 80%);
+    
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    /* You can remove this if you're using JavaScript to center the cursor */
+  }
+  
+/* .cursor {
     position: absolute;
     width: 500px;
     height: 500px;
@@ -27,4 +38,4 @@ body {
     pointer-events: none;
     transition: transform 0.1s ease;
     transform: translate(-50%, -50%);
-}
+} */

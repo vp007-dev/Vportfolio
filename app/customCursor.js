@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import './cursor.css';
 
 const CustomCursor = () => {
   useEffect(() => {
@@ -9,7 +10,9 @@ const CustomCursor = () => {
     document.body.appendChild(cursor);
 
     const moveCursor = (e) => {
-      cursor.style.transform = `translate(${e.clientX-250.5}px, ${e.clientY-1200}px)`;
+      const cursorSize = 500; // Half of your custom cursor's size (if it's 100px)
+      cursor.style.left = `${e.clientX - cursorSize}px`;
+      cursor.style.top = `${e.clientY - cursorSize}px`;
     };
 
     document.addEventListener('mousemove', moveCursor);
