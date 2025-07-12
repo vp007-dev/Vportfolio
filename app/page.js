@@ -172,6 +172,13 @@ export default function Home() {
             <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
             </ul>
           </section>
+          <section className="exp">
+            <h3 className="font-medium leading-snug text-slate-200"><a href="https://github.com/vp007-dev/Monkey-Detection-Arduino-System-Embedded-Machine-Vision">ESP32-CAM AI Monkey Detection Embedded Vision System</a></h3>
+            <p className="mt-2 text-sm leading-normal">Real-time motion and monkey-size detection using ESP32-CAM for wildlife alert systems.</p>
+            <p className="mt-2 text-sm leading-normal">It is designed for forest edge farms, rooftop solar farms, or wildlife monitoring where monkeys cause damage and need to be detected without complex AI servers.</p>
+            <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+            </ul>
+          </section>
         </div>
       </div>
     </>
