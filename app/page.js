@@ -179,6 +179,14 @@ export default function Home() {
             <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
             </ul>
           </section>
+          <section className="exp">
+            <h3 className="font-medium leading-snug text-slate-200"><a href="https://github.com/vp007-dev/Smart-Surveillance-System-with-NAS">🧠 Smart Surveillance System with NAS, AI Face Recognition, and Video Sorting</a></h3>
+            <p className="mt-2 text-sm leading-normal">Smart Surveillance uses AI for face recognition and tracking in video footage. Integrated with NAS, it auto-sorts videos into categorized folders based on identified faces,</p>
+            <p className="mt-2 text-sm leading-normal">offering an efficient and automated security solution.</p>
+            <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+            </ul>
+          </section>
+          
         </div>
       </div>
     </>
